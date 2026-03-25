@@ -1,0 +1,38 @@
+main {
+  padding: 20px;
+  padding-bottom: 100px; /* espace pour le footer fixe */
+}
+
+/* Page artistes */
+artist-cover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  margin: 10px;
+  text-align: center;
+}
+
+artist-cover img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Page chansons */
+page-artists-songs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* Page player */
+page-player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-top: 20px;
+}

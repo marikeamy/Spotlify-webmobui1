@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotlified</title>
+
+    <!-- Stylesheet principale -->
+    <link rel="stylesheet" href="css/index.css" />
+
+    <!-- Javascript principal -->
+    <script src="index.js" type="module" defer></script>
+
+    <!-- Manifest -->
+    <link rel="manifest" href="manifest.webmanifest" />
+  </head>
+
+  <body>
+    <header>
+      <img src="" alt="Retrospotify" id="logo" />
+    </header>
+    <main class="main-content">
+    </main>
+    <audio id="audio-player">
+      
+    </audio>
+    <footer>
+      <button class="navigation">
+        <!-- On utilise les hash pour utiliser le router (dans index.js)-->
+        <a href="#home">home</a>
+      </button>
+      <button class="navigation">
+        <a href="#player">playing</a>
+      </button>
+      <button class="navigation">
+        <a href="#artists">artists</a>
+      </button>
+      <button class="navigation">
+        <a href="#liked">liked</a>
+      </button>
+    </footer>
+  </body>
+</html>

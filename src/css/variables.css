@@ -1,0 +1,9 @@
+:root {
+    --bg-color : rgb(225, 225, 225);
+    --text-color : rgb(18, 18, 18);
+    --button-color : rgb(246, 215, 42);
+    --secondary-color : rgb(255, 148, 60);
+    --border-color : rgb(213, 213, 213);
+
+    --default-transition : 0.3s ease-in-out;
+}

@@ -1,0 +1,16 @@
+li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 10px;  
+  border-bottom: 2px solid var(--border-color);
+}
+
+ul{
+  list-style-type: none;
+  width: 80%;
+}
+
+li p {
+  flex-grow: 1;
+} 
