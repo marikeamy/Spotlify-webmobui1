@@ -43,5 +43,5 @@ window.addEventListener('online', (e) => document.body.classList.remove('offline
 
 //Service worker
 if('serviceWorker' in navigator) {
-	navigator.serviceWorker.register('./public/serviceworker.js')
+	navigator.serviceWorker.register('/OneSignalSDKWorker.js')
 }
