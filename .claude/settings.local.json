@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(curl -s \"https://webmob-ui-22-spotlified.herokuapp.com/api/artists/1\" | python3 -m json.tool)",
-      "Bash(curl -s \"https://webmob-ui-22-spotlified.herokuapp.com/api/artists/1/songs\" | python3 -m json.tool 2>/dev/null | head -60)"
-    ]
-  }
-}
